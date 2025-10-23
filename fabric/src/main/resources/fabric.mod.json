@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodcasting",
+  "version": "${version}",
+  "name": "Bloodcasting",
+  "description": "Cast with your life. What could go wrong?",
+  "authors": [
+    "BlueEyedFoxUnderscore"
+  ],
+  "contact": {
+    "homepage": "https://blueeyedfoxunderscore.github.io/bloodcasting",
+    "sources": "https://github.com/BlueEyedFoxUnderscore/bloodcasting"
+  },
+  "license": "MIT",
+  "icon": "assets/bloodcasting/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [{
+      "adapter": "kotlin",
+      "value": "io.github.blueeyedfoxunderscore.bloodcasting.fabric.FabricBloodcasting"
+    }],
+    "client": [{
+      "adapter": "kotlin",
+      "value": "io.github.blueeyedfoxunderscore.bloodcasting.fabric.FabricBloodcastingClient"
+    }],
+    "server": [{
+      "adapter": "kotlin",
+      "value": "io.github.blueeyedfoxunderscore.bloodcasting.fabric.FabricBloodcastingServer"
+    }],
+    "fabric-datagen": [{
+      "adapter": "kotlin",
+      "value": "io.github.blueeyedfoxunderscore.bloodcasting.fabric.datagen.FabricBloodcastingDatagen"
+    }],
+    "modmenu": [{
+      "adapter": "kotlin",
+      "value": "io.github.blueeyedfoxunderscore.bloodcasting.fabric.FabricBloodcastingModMenu"
+    }]
+  },
+  "mixins": [
+    "bloodcasting-common.mixins.json",
+    "bloodcasting-fabric.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${versions.minecraft}",
+    "fabricloader": ">=${versions.fabric_loader}",
+    "fabric-api": ">=${versions.fabric_api}",
+    "fabric-language-kotlin": ">=${versions.kotlin_fabric}",
+    "architectury": ">=${versions.architectury}",
+    "hexcasting": ">=${versions.hexcasting_dependency}",
+    "cloth-config": ">=${versions.clothConfig}"
+  },
+  "suggests": {
+    "modmenu": ">=${versions.modMenu}"
+  }
+}

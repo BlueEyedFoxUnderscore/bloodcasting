@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+# https://copier.readthedocs.io/en/stable/updating/#never-change-the-answers-file-manually
+_commit: v2.2.1
+_src_path: gh:FallingColors/hexdummy
+advanced: false
+description: Cast with your life. What could go wrong?
+display_name: Bloodcasting
+github_repo: bloodcasting
+github_user: BlueEyedFoxUnderscore
+java_package: io.github.blueeyedfoxunderscore.bloodcasting
+mappings_name: Mojmap
+minecraft_version_in_mod_version: true
+mit_license: true
+mod_version: 0.1.0
+modid: bloodcasting
