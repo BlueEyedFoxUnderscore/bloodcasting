@@ -1,0 +1,26 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+# https://copier.readthedocs.io/en/stable/updating/#never-change-the-answers-file-manually
+_commit: v0.2.0
+_src_path: gh:hexdoc-dev/hexdoc-hexcasting-template
+advanced: true
+capitalize_platforms: false
+classname: Bloodcasting
+generate_vscode: true
+github_repo: bloodcasting
+github_user: BlueEyedFoxUnderscore
+gradle_deps_type: gradle/libs.versions.toml
+gradle_hex_version_key: hexcasting
+gradle_minecraft_version_key: minecraftVersion
+gradle_mod_version_key: modVersion
+main_branch: main
+minecraft_version: 1.20.1
+minecraft_version_in_mod_version: true
+mod_description: Bloodcasting addon for Hex Casting.
+mod_display_name: Bloodcasting
+modid: bloodcasting
+multiloader: true
+package_name: hexdoc-bloodcasting
+package_slug: hexdoc_bloodcasting
+pages_url: https://blueeyedfoxunderscore.github.io/bloodcasting
+pattern_registry_path: main/java/io/github/blueeyedfoxunderscore/bloodcasting/registry/BloodcastingPatterns.java
+source_url: https://github.com/BlueEyedFoxUnderscore/bloodcasting
