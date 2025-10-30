@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "io.github.blueeyedfoxunderscore.bloodcasting.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "MixinDatagenMain"
+  ],
+  "plugin": "io.github.blueeyedfoxunderscore.bloodcasting.mixin.BloodcastingMixinConfigPlugin",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

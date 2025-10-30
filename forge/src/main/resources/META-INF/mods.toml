@@ -1,0 +1,46 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[${versions.kotlin_forge},)"
+license = "MIT"
+
+[[mods]]
+modId = "bloodcasting"
+version = "${version}"
+displayName = "Bloodcasting"
+logoFile = "assets/bloodcasting/icon.png"
+authors = "BlueEyedFoxUnderscore"
+description = "Enhancing the blood casting mechanic from Hexcasting."
+
+[[dependencies.bloodcasting]]
+modId = "forge"
+mandatory = true
+versionRange = "[${versions.forge_dependency},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bloodcasting]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${versions.minecraft},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bloodcasting]]
+modId = "architectury"
+mandatory = true
+versionRange = "[${versions.architectury},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bloodcasting]]
+modId = "cloth_config"
+mandatory = true
+versionRange = "[${versions.cloth_config},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bloodcasting]]
+modId = "hexcasting"
+mandatory = true
+versionRange = "[${versions.hexcasting_dependency},)"
+ordering = "NONE"
+side = "BOTH"
